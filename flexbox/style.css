@@ -1,0 +1,30 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+section{
+    background-color: lightblue;
+    display: flex;
+    border: 2px solid blue;
+    height: 200px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: space-between
+
+}
+article{
+    border: 2px solid green;
+    background-color: red;
+    height: 50px;
+    width: 40%;
+}
+
+header{
+    height: 200px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
