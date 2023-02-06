@@ -201,7 +201,8 @@ footer a{
     justify-content: space-around;
 }
 #contenedor-oficinas article img{
-    width: 50%;
+    width: 90%;
+    box-shadow: 5px 5px 5px black;
 }
 #contenedor-oficinas article{
     text-align: center;
