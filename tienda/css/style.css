@@ -108,6 +108,7 @@ section{
 #direccion{
     width: 40%;
 }
+
 #contenedor-servicios{
     display: flex;
     flex-wrap: wrap;
@@ -131,6 +132,8 @@ section{
 .servicio img{
     width: 40%;
 }
+
+
 footer{
     background-color: gray;
     color: white;
@@ -166,6 +169,8 @@ footer a{
     text-decoration: none;
     color: white;
 }
+
+
 #medio-ambiente{
     background-color: #83ff6a;
 }
@@ -186,4 +191,24 @@ footer a{
     width: 60%;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+#oficinas{
+    background-color: royalblue;
+}
+#contenedor-oficinas{
+    display: flex;
+    justify-content: space-around;
+}
+#contenedor-oficinas article img{
+    width: 50%;
+}
+#contenedor-oficinas article{
+    text-align: center;
+}
+.titulo-oficina{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
 }
