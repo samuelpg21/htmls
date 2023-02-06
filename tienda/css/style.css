@@ -204,6 +204,9 @@ footer a{
     width: 90%;
     box-shadow: 5px 5px 5px black;
 }
+#contenedor-oficinas article img:hover{
+    opacity: 0.5;
+}
 #contenedor-oficinas article{
     text-align: center;
 }
