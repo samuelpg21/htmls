@@ -61,3 +61,12 @@ body{
 .plan-boton:hover{
     background-color: rgba(0, 255, 0, 0.8);;
 }
+
+@media (max-width: 600px) {
+    body{
+        background-color:red;
+    }
+    #planes {
+        display: block
+    }
+}
