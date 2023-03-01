@@ -10,6 +10,7 @@ nav{
     position: sticky;
     justify-content: space-around;
     padding: 20px;
+    top: 0;
 }
 nav a{
     text-decoration: none;
@@ -48,9 +49,13 @@ header h2{
     padding: 20px;
     flex-wrap: wrap;
 }
-#contenedor-servicios article{
+#izquierda{
     padding: 10px;
     width: 50%;
+}
+#derecha{
+    width: 50%;
+    padding: 10px;
 }
 
 #obras{
@@ -95,8 +100,44 @@ footer h2{
 }
 footer #columna{
     width: 30%;
+    text-align: center;
 }
 footer p{
     font-size: 1em;
     text-align: center;
+}
+
+@media (max-width: 600px){
+    #contenedor-servicios{
+        display: block;
+    }
+    #izquierda, #derecha {
+        width: 100%;
+    }
+    #contenedor-obras { 
+        display: block;
+    }
+    .obra {
+        width: 100%;
+    }
+    
+    footer{
+        display: block;
+    }
+    footer #columna{
+        width: 100%;
+    }
+
+    nav{
+        position: static;
+        display: block;
+    }
+    nav a{
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        padding: 10px;
+        border-bottom: 2px solid yellow;
+    }
+
 }
