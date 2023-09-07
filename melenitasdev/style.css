@@ -1,0 +1,135 @@
+/* Fuentes de texto google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+/* copia pega fuentes google fonts */
+/* font-family: 'Hind', sans-serif; */
+
+/* Aplicamos a todo */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+    color: white;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: #171717;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #a3413c;
+    display: flex;
+    position: sticky;
+    justify-content: space-around;
+    padding: 20px;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #171717;
+    font-weight: bold;
+}
+
+
+header img{
+    width: 100%;
+}
+
+
+.titulo{
+    text-align: center;
+    color: #a3413c;
+    font-size: 1.5em;
+}
+
+#quien-soy{
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+#contenedor-quien-soy{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#izquierda{
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+#izquierda img{
+    border-radius: 50%;
+}
+#derecha{
+    width: 50%;
+    text-align: justify;
+    align-items: center;
+}
+#centro{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#juegos{
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+#contenedor-juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.juego{
+    width: 28%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.juego p{
+    font-style: italic;
+}
+.juego img{
+    width: 90%;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid #a3413c;
+    border-bottom: 4px solid #a3413c;
+}
+.juego a:hover{
+    color: #a3413c;
+    font-weight: bold;
+}
+
+#redes-sociales{
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#contenedor-redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.redes{
+    width: 20%;
+    text-align: center;
+}
+.redes img{
+    width: 50%;
+}
+.redes a:hover{
+    color: #a3413c;
+}
